@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+h1 {
+    font-family: "Syne Mono", monospace;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 12.8px;
+    width: 100%;
+    border-radius: 4px;
+    background: lightskyblue;
+    font-size: 48px;
+    min-width: 1,280px;
+    padding: 0%;
+    font-family: "Syne Mono", monospace;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 6.4px 22.4px 0 lightskyblue;
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 32px;
+    color: black;
+}
+
+.choice-text {
+    padding: 32px;
+    color: 100%;
+}
+.correct {
+    background: linear-gradient(32deg, green 0%, green 100% );
+}
+
+.incorrect {
+    background: linear-gradient(32deg, red 0%, red 100% );
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 32px;
+    font-family: "Syne Mono", monospace;
+}
+
+.hud-main-text  {
+    text-align: center;
+}
+
+#progressBar {
+    width: 320px;
+    height: 48px;
+    border: 3.2px solid green;
+    margin-top: 32px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: green;
+    width: 0%;
+}
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 640px;
+    }
+}
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 480px;
+}
+
+input {
+    margin-bottom: 16px;
+    width: 320px;
+    padding: 24px;
+    font-size: 28.8px;
+    border: none;
+    box-shadow: 0 1.6px 22.4px 0 lightblue;
+}
+
+input::placeholder {
+    color: lightgray
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+
+:root {
+    background-color: white;
+} 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    font-family: "Syne Mono", monospace;
+
+}
+
+/* h1 {
+    font-size: 5.5rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+} */
+
+.container {
+    width: 1920px;
+    height: 966px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 32px;
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-btn-outline-primary {
+    font-size: 64px;
+    padding: 32px 0;
+    width: 481px;
+    text-align: center;
+    margin-bottom: 16px;
+    text-decoration: none;
+    color: rgb(29,26,26);
+    background: linear-gradient(90deg, (18, 92, 255) 0%, (0, 102, 255) 100%);
+    border-radius: 4px;
+
+}
+
+.btn-btn-outline-primary:hover {
+    cursor: pointer;
+    box-shadow: 0 6.4px  22.4px 0 (8, 114, 244, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
