@@ -1,7 +1,7 @@
 # code_quiz
 
-Instroduction
-* As a student dveloper, the project was to build a timed quiz.
+Introduction
+* As a student developer, the project was to build a timed quiz.
 
 Table of Contents
 1.  Description
@@ -34,4 +34,4 @@ Technologies:
 6.  Github Repository
 
 Set-up:
-*   Right click eht file index.html, index1.html, and index2.html
+*   Right click the file index.html, index1.html, and index2.html
